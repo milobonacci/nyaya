@@ -231,8 +231,8 @@ margin-bottom: 10vh; */
 .center {
   margin: 0;
   position: fixed;
-  top: 42%;
-  left: 50%;
+  top: 42vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   /* font-size: 30vw; */
   font-size: 20rem;
