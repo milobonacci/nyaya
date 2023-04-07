@@ -167,11 +167,12 @@ a:active {
 .block {
   width: 100%;
   margin: auto;
-  height: 50vh;
+  height: 75vh;
   z-index: 100;
   position: relative;
   z-index: -100;
   background: darkgoldenrod;
+/* mix-blend-mode: difference; */
 }
 
 .block2 {
@@ -202,7 +203,7 @@ a:active {
   text-align: center;
   z-index: -10;
   position: relative;
-  margin-bottom: 20vh;
+  /* margin-bottom: 20vh; */
   /* padding-bottom: 8vh; */
 }
 
@@ -215,6 +216,8 @@ a:active {
   font-size: 20rem;
   color: darkgoldenrod;
   font-kerning: normal;
+  mix-blend-mode: difference;
+
 }
 
 .heading {
