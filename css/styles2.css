@@ -9,9 +9,11 @@
 }
 
 body {
-  background-color: SeaShell;
+  /* background-color: SeaShell; */
+  background-image: linear-gradient(white, black);
+
   font-kerning: normal;
-  background-color: gray;
+  /* background-color: gray; */
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
@@ -80,6 +82,7 @@ body {
 
 .pull {
   margin-top: 50vh;
+  margin-bottom: 20vh;
   padding: inherit;
   font-size: 4rem;
   display: inline-block;
@@ -96,7 +99,7 @@ body {
 .nav-left {
   position: fixed;
   display: inline-block;
-  width: 50%;
+  width: 100%;
   left: 0px;
   top: 0px;
   margin: 0px;
@@ -118,7 +121,7 @@ body {
   top: 0px;
   margin: 0px;
   height: 4rem;
-  background-color: gray;
+  /* background-color: gray; */
   opacity: 80%;
   color: white;
   font-family: 'nyayasans-open';
@@ -171,7 +174,7 @@ a:active {
   z-index: 100;
   position: relative;
   z-index: -100;
-  background: black;
+  /* background: black; */
 }
 
 .block2 {
@@ -180,7 +183,7 @@ a:active {
   height: 700px;
   z-index: -10;
   position: relative;
-  background: gray
+  /* background: gray */
 }
 
 .block3 {
@@ -190,14 +193,14 @@ a:active {
   z-index: 1000;
   position: relative;
   margin-top: 100px;
-  background: white;
+  /* background: white; */
 }
 
 .contact {
   padding-top: 75vh;
   font-size: 8rem;
   position: relative;
-  background-color: gray;
+  /* background-color: gray; */
   color: white;
   text-align: center;
   z-index: -10;

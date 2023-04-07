@@ -15,7 +15,7 @@ body {
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: whitesmoke;
+  color: seashell;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
@@ -80,6 +80,7 @@ body {
 
 .pull {
   margin-top: 50vh;
+  margin-bottom: 20vh;
   padding: inherit;
   font-size: 4rem;
   display: inline-block;
@@ -87,7 +88,7 @@ body {
   padding-right: 5%;
   padding-top: 1.5em;
   padding-bottom: 2em;
-  color: #f2ebd5;
+  color: seashell;
   background-color: #d9043d;
   z-index: 100;
   position: relative;
@@ -96,14 +97,14 @@ body {
 .nav-left {
   position: fixed;
   display: inline-block;
-  width: 50%;
+  width: 100%;
   left: 0px;
   top: 0px;
   margin: 0px;
   height: 4rem;
   background-color: #011c40;
   opacity: 80%;
-  color: white;
+  color: seashell;
   font-family: 'nyayasans-open';
   padding-top: 15px;
   text-align: left;
@@ -118,9 +119,9 @@ body {
   top: 0px;
   margin: 0px;
   height: 4rem;
-  background-color: #011c40;
+  /* background-color: #011c40; */
   opacity: 80%;
-  color: white;
+  color: seashell;
   font-family: 'nyayasans-open';
   padding-top: 15px;
   text-align: right;
@@ -161,7 +162,7 @@ a:hover {
 
 a:active {
   text-decoration: underline;
-  text-shadow: 0 0 15px whitesmoke;
+  text-shadow: 0 0 15px seashell;
 }
 
 .block {
@@ -171,8 +172,8 @@ a:active {
   z-index: 2000;
   position: relative;
   z-index: -100;
-  /* background: whitesmoke; */
-  background: white;
+  /* background: seashell; */
+  background: seashell;
 }
 
 .block2 {
@@ -192,7 +193,7 @@ a:active {
   z-index: 2000;
   position: relative;
   margin-top: 100px;
-  background: white;
+  background: seashell;
 }
 
 .contact {
@@ -200,7 +201,7 @@ a:active {
   font-size: 8rem;
   position: relative;
   background-color: #011c40;
-  color: white;
+  color: seashell;
   text-align: center;
   z-index: -10;
   position: relative;
@@ -219,7 +220,6 @@ a:active {
   z-index: 0;
   font-kerning: normal;
   /* mix-blend-mode: difference; */
-
 }
 
 .heading {
@@ -234,7 +234,7 @@ a:active {
   position: absolute;
   bottom: 0;
   width: 100%;
-  color: whitesmoke;
+  color: seashell;
   height: 200px;
   font-size: 3em;
   position: relative;

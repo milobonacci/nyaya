@@ -80,6 +80,7 @@ body {
 
 .pull {
   margin-top: 50vh;
+  margin-bottom: 20vh;
   padding: inherit;
   font-size: 4rem;
   display: inline-block;
@@ -96,7 +97,7 @@ body {
 .nav-left {
   position: fixed;
   display: inline-block;
-  width: 50%;
+  width: 100%;
   left: 0px;
   top: 0px;
   margin: 0px;
@@ -118,7 +119,7 @@ body {
   top: 0px;
   margin: 0px;
   height: 4rem;
-  background-color: black;
+  /* background-color: black; */
   opacity: 80%;
   color: white;
   font-family: 'nyayasans-open';
