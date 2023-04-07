@@ -11,11 +11,11 @@
 body {
   background-color: SeaShell;
   font-kerning: normal;
-  background-color: #011c40;
+  background-color: gray;
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: whitesmoke;
+  color: black;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
@@ -87,8 +87,8 @@ body {
   padding-right: 5%;
   padding-top: 1.5em;
   padding-bottom: 2em;
-  color: #f2ebd5;
-  background-color: #d9043d;
+  color: black;
+  background-color: white;
   z-index: 100;
   position: relative;
 }
@@ -101,7 +101,7 @@ body {
   top: 0px;
   margin: 0px;
   height: 4rem;
-  background-color: #011c40;
+  background-color: gray;
   opacity: 80%;
   color: white;
   font-family: 'nyayasans-open';
@@ -118,7 +118,7 @@ body {
   top: 0px;
   margin: 0px;
   height: 4rem;
-  background-color: #011c40;
+  background-color: gray;
   opacity: 80%;
   color: white;
   font-family: 'nyayasans-open';
@@ -161,7 +161,7 @@ a:hover {
 
 a:active {
   text-decoration: underline;
-  text-shadow: 0 0 15px whitesmoke;
+  text-shadow: 0 0 15px black;
 }
 
 .block {
@@ -171,7 +171,7 @@ a:active {
   z-index: 100;
   position: relative;
   z-index: -100;
-  background: whitesmoke;
+  background: black;
 }
 
 .block2 {
@@ -180,7 +180,7 @@ a:active {
   height: 700px;
   z-index: -10;
   position: relative;
-  background: #011c40
+  background: gray
 }
 
 .block3 {
@@ -197,7 +197,7 @@ a:active {
   padding-top: 75vh;
   font-size: 8rem;
   position: relative;
-  background-color: #011c40;
+  background-color: gray;
   color: white;
   text-align: center;
   z-index: -10;
@@ -213,7 +213,7 @@ a:active {
   left: 50vw;
   transform: translate(-50%, -50%);
   font-size: 20rem;
-  color: #d9043d;
+  color: lightgray;
   font-kerning: normal;
 }
 
@@ -229,7 +229,7 @@ a:active {
   position: absolute;
   bottom: 0;
   width: 100%;
-  color: whitesmoke;
+  color: black;
   height: 200px;
   font-size: 3em;
   position: relative;
