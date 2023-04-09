@@ -50,6 +50,11 @@ svg {
   fill: darkgoldenrod;
 }
 
+.st0 {
+  fill: darkgoldenrod;
+}
+
+
 .centerLogo {
   height: 50vh;
   top: -4rem;
@@ -67,6 +72,9 @@ svg {
   z-index: 0;
   font-kerning: normal;
   mix-blend-mode: difference;
+
+  -webkit-transform: translate3d(0,33.33vh,0);
+
 
 }
 
@@ -134,6 +142,9 @@ svg {
   background-color: SeaShell;
   z-index: 100;
   position: relative;
+
+  -webkit-transform: translate3d(0,0,0);
+
 }
 
 .nav-left {
@@ -238,6 +249,9 @@ a:active {
   margin-top: 66.666vh;
   line-height: .95em;
   color: seashell;
+
+  -webkit-transform: translate3d(0,0,0);
+
 }
 
 .heading {

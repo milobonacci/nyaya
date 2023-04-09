@@ -48,6 +48,10 @@ svg {
   fill: palevioletred;
 }
 
+.st0 {
+  fill: palevioletred;
+}
+
 .centerLogo {
   height: 50vh;
   top: -4rem;
@@ -64,6 +68,9 @@ svg {
   color: palevioletred;
   z-index: 0;
   font-kerning: normal;
+
+  -webkit-transform: translate3d(0,33.33vh,0);
+
 }
 
 .content {
@@ -131,6 +138,9 @@ svg {
   z-index: 100;
   position: relative;
   /* mix-blend-mode: difference; */
+
+  -webkit-transform: translate3d(0,0,0);
+
 
 }
 
@@ -247,6 +257,9 @@ a:active {
   text-align: center;
   margin-top: 66.666vh;
   line-height: .95em;
+
+  -webkit-transform: translate3d(0,0,0);
+
 }
 
 .heading {

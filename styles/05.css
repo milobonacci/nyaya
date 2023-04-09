@@ -42,6 +42,10 @@ svg {
   fill: tomato;
 }
 
+.st0 {
+  fill: tomato;
+}
+
 .centerLogo {
   height: 50vh;
   top: -4rem;
@@ -58,6 +62,9 @@ svg {
   color: tomato;
   z-index: 0;
   font-kerning: normal;
+
+  -webkit-transform: translate3d(0,33.33vh,0);
+
 }
 
 .logo {
@@ -128,6 +135,9 @@ svg {
   background-color: #011c40;
   z-index: 100;
   position: relative;
+
+  -webkit-transform: translate3d(0,0,0);
+
 }
 
 .nav-left {
@@ -243,6 +253,9 @@ a:active {
   text-align: center;
   margin-top: 66.666vh;
   line-height: .95em;
+
+  -webkit-transform: translate3d(0,0,0);
+
 }
 
 .heading {

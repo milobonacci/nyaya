@@ -52,6 +52,9 @@ img {
   color: tomato;
   z-index: 0;
   font-kerning: normal;
+
+  -webkit-transform: translate3d(0,33.33vh,0);
+
 }
 
 .icon {
@@ -70,6 +73,10 @@ svg {
 }
 
 .cls-1 {
+  fill: midnightblue;
+}
+
+.st0 {
   fill: midnightblue;
 }
 
@@ -138,6 +145,9 @@ svg {
   z-index: 100;
   position: relative;
   /* mix-blend-mode: difference; */
+
+  -webkit-transform: translate3d(0,0,0);
+
 }
 
 .nav-left {
@@ -241,6 +251,9 @@ a:active {
   text-align: center;
   margin-top: 66.666vh;
   line-height: .95em;
+
+  -webkit-transform: translate3d(0,0,0);
+
 }
 
 .heading {
