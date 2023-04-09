@@ -246,7 +246,8 @@ a:active {
   position: relative;
   z-index: -100;
   /* background: seashell; */
-  background: navy;
+  /* background: tomato; */
+  /* mix-blend-mode: lighten; */
 }
 
 .contact {
@@ -268,7 +269,7 @@ a:active {
   text-align: center;
   margin-top: 66.666vh;
   line-height: .95em;
-
+color: linen;
   -webkit-transform: translate3d(0,0,0);
 
 }
@@ -301,4 +302,5 @@ a:active {
   padding-bottom: 100px;
   z-index: 100;
   position: relative;
+  color: linen;
 }

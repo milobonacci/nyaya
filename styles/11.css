@@ -10,8 +10,8 @@
 
 body {
   font-kerning: normal;
-  /* background-color: linen; */
-  background-image: linear-gradient(mediumblue, midnightblue);
+  background-color: midnightblue;
+  /* background-image: linear-gradient(lightgray, darkgray); */
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
@@ -49,7 +49,7 @@ img {
   left: 50vw;
   font-size: 20rem;
   text-align: center;
-  color: whitesmoke;
+  color: deeppink;
   z-index: 0;
   font-kerning: normal;
 
@@ -73,11 +73,11 @@ svg {
 }
 
 .cls-1 {
-  fill: whitesmoke;
+  fill: deeppink;
 }
 
 .st0 {
-  fill: whitesmoke;
+  fill: deeppink;
 }
 
 .content {
@@ -140,9 +140,9 @@ svg {
   padding-right: 5%;
   padding-top: 1.5em;
   padding-bottom: 2em;
-  color: navy;
-  background-color: whitesmoke;
-  z-index: 100;
+  color: midnightblue;
+  background-color: deeppink;
+  z-index: 1000;
   position: relative;
   /* mix-blend-mode: difference; */
 
@@ -160,7 +160,7 @@ svg {
   height: 4rem;
   background-color: inherit;
   /* opacity: 80%; */
-  color: whitesmoke;
+  color: deeppink;
   font-family: 'nyayasans-open';
   padding-top: 15px;
   text-align: left;
@@ -177,7 +177,7 @@ svg {
   height: 4rem;
   /* background-color: #011c40; */
   /* opacity: 80%; */
-  color: whitesmoke;
+  color: deeppink;
   font-family: 'nyayasans-open';
   padding-top: 15px;
   text-align: right;
@@ -229,8 +229,8 @@ a:active {
   position: relative;
   z-index: 2200;
   /* background: seashell; */
-  /* background: navy;
-  mix-blend-mode: exclusion; */
+  /* background: black;
+  mix-blend-mode: difference; */
 }
 
 .contact {
