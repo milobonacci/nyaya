@@ -9,13 +9,14 @@
 }
 
 body {
-  background-color: SeaShell;
   font-kerning: normal;
-  background-color: #011c40;
+  /* background-color: mistyrose; */
+  background-image: linear-gradient(mistyrose, pink);
+
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: seashell;
+  color: palevioletred;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
@@ -26,6 +27,43 @@ body {
 
 .logo {
   font-size: 20vw;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+svg {
+  display: block;
+  margin: auto;
+  max-width: 80vw;
+  max-height: 98vh;
+  transform: translateY(-1vh);
+  scroll-behavior: smooth;
+}
+
+.cls-1 {
+  fill: palevioletred;
+}
+
+.centerLogo {
+  height: 50vh;
+  top: -4rem;
+  position: -webkit-sticky;
+  position: sticky;
+  vertical-align: bottom;
+  transform: translateY(-15px);
+  transform: translateY(33.333vh);
+  justify-content: center; */
+  font-size: 20rem;
+  left: 50vw;
+  font-size: 20rem;
+  text-align: center;
+  color: palevioletred;
+  z-index: 0;
+  font-kerning: normal;
 }
 
 .content {
@@ -88,10 +126,12 @@ body {
   padding-right: 5%;
   padding-top: 1.5em;
   padding-bottom: 2em;
-  color: seashell;
-  background-color: #d9043d;
+  color: palevioletred;
+  background-color: mistyrose;
   z-index: 100;
   position: relative;
+  /* mix-blend-mode: difference; */
+
 }
 
 .nav-left {
@@ -102,9 +142,9 @@ body {
   top: 0px;
   margin: 0px;
   height: 4rem;
-  background-color: #011c40;
-  opacity: 80%;
-  color: seashell;
+  /* background-color: pink; */
+  /* opacity: 80%; */
+  color: palevioletred;
   font-family: 'nyayasans-open';
   padding-top: 15px;
   text-align: left;
@@ -120,8 +160,8 @@ body {
   margin: 0px;
   height: 4rem;
   /* background-color: #011c40; */
-  opacity: 80%;
-  color: seashell;
+  /* opacity: 80%; */
+  color: palevioletred;
   font-family: 'nyayasans-open';
   padding-top: 15px;
   text-align: right;
@@ -173,35 +213,15 @@ a:active {
   position: relative;
   z-index: -100;
   /* background: seashell; */
-  background: seashell;
-}
-
-.block2 {
-  width: 60vw;
-  margin: auto;
-  height: 700px;
-  z-index: 10000;
-  position: relative;
-  /* background: #011c40; */
-    background: black;
-}
-
-.block3 {
-  width: 100%;
-  margin: auto;
-  height: 700px;
-  z-index: 2000;
-  position: relative;
-  margin-top: 100px;
-  background: seashell;
+  background: mistyrose;
 }
 
 .contact {
   padding-top: 75vh;
   font-size: 8rem;
   position: relative;
-  background-color: #011c40;
-  color: seashell;
+  /* background-color: #011c40; */
+  color: white;
   text-align: center;
   z-index: -10;
   position: relative;
@@ -209,17 +229,24 @@ a:active {
   /* padding-bottom: 8vh; */
 }
 
-.center {
+/* .centerLogo {
   margin: 0;
   position: fixed;
   top: 42vh;
   left: 50vw;
   transform: translate(-50%, -50%);
   font-size: 20rem;
-  color: #d9043d;
+  color: palevioletred;
   z-index: 0;
   font-kerning: normal;
-  /* mix-blend-mode: difference; */
+} */
+
+.centered {
+  font-size: 8rem;
+  position: relative;
+  text-align: center;
+  margin-top: 66.666vh;
+  line-height: .95em;
 }
 
 .heading {
@@ -250,12 +277,4 @@ a:active {
   padding-bottom: 100px;
   z-index: 100;
   position: relative;
-}
-
-.centered {
-  font-size: 8rem;
-  position: relative;
-  text-align: center;
-  margin-top: 66.666vh;
-  line-height: .95em;
 }

@@ -6,16 +6,44 @@
   <title>nyāya</title>
   <!-- <link rel="preload" href="assets/nyayasans-open.woff2" as="font" type="font/woff2" crossorigin /> -->
 
-
-
   <link rel="icon" type="image/png" href="assets/favicon-96.png" sizes="96x96">
   <meta charset="utf-8" />
-  <script type="text/javascript" src="./libgif.js"></script>
-  <meta name="milo bonacci" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <!-- <script type="text/javascript" src="./libgif.js"></script> -->
 
-  <!-- <link rel="stylesheet" href="assets/styles.css" type="text/css" charset="utf-8"> -->
-  <!-- <link rel="stylesheet" href="styles.css" type="text/css" charset="utf-8"/> -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="styles/10.css" /> -->
+
+  <meta name="milo bonacci" content="width=device-width, initial-scale=1.0">
+
+
+  <script>
+    function get_randomCssNum() {
+      var ranCssNum = Math.floor(Math.random() * 10);
+
+      return ranCssNum;
+    }
+
+    function getaCss() {
+      var whichCss = get_randomCssNum();
+
+      var cssName = new Array(4)
+
+      cssName[0] = "<link rel='stylesheet' type='text/css' href='styles/01.css'>";
+      cssName[1] = "<link rel='stylesheet' type='text/css' href='styles/02.css'>";
+      cssName[2] = "<link rel='stylesheet' type='text/css' href='styles/03.css'>";
+      cssName[3] = "<link rel='stylesheet' type='text/css' href='styles/04.css'>";
+      cssName[4] = "<link rel='stylesheet' type='text/css' href='styles/05.css'>";
+      cssName[5] = "<link rel='stylesheet' type='text/css' href='styles/06.css'>";
+      cssName[6] = "<link rel='stylesheet' type='text/css' href='styles/07.css'>";
+      cssName[7] = "<link rel='stylesheet' type='text/css' href='styles/08.css'>";
+      cssName[8] = "<link rel='stylesheet' type='text/css' href='styles/09.css'>";
+      cssName[9] = "<link rel='stylesheet' type='text/css' href='styles/10.css'>";
+
+      return cssName[whichCss]
+    }
+    document.write(getaCss());
+  </script>
 
   <style>
     #grad1 {
@@ -37,8 +65,22 @@
 
 <body>
 
+
+
+  <div class="icon">
+
+
+  <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320"><defs><style>.cls-1{;}</style></defs><rect class="cls-1" x="137.45" y="58.13" width="109.99" height="4" transform="translate(75.78 224.58) rotate(-72)"/><rect class="cls-1" x="72.56" y="257.86" width="109.99" height="4" transform="translate(-159.01 300.86) rotate(-72)"/><rect class="cls-1" x="166.72" y="73.05" width="110" height="4" transform="translate(30.67 210.3) rotate(-54)"/><rect class="cls-1" x="43.28" y="242.95" width="110" height="4" transform="translate(-157.65 180.47) rotate(-54)"/><rect class="cls-1" x="189.94" y="96.28" width="110" height="4" transform="translate(-10.99 162.76) rotate(-36)"/><rect class="cls-1" x="20.05" y="219.72" width="110" height="4" transform="translate(-116 86.47) rotate(-36)"/><rect class="cls-1" x="204.87" y="125.55" width="109.99" height="4" transform="translate(-26.7 86.55) rotate(-18)"/><rect class="cls-1" x="5.14" y="190.45" width="109.99" height="4" transform="translate(-56.53 28) rotate(-18)"/><rect class="cls-1" x="210" y="158" width="110" height="4"/><rect class="cls-1" y="158" width="110" height="4"/><rect class="cls-1" x="257.87" y="137.46" width="4" height="109.99" transform="translate(-3.47 380.13) rotate(-72)"/><rect class="cls-1" x="58.13" y="72.56" width="4" height="109.99" transform="translate(-79.76 145.33) rotate(-72)"/><rect class="cls-1" x="242.95" y="166.72" width="4" height="110" transform="translate(-78.4 289.56) rotate(-54)"/><rect class="cls-1" x="73.05" y="43.28" width="4" height="110" transform="translate(-48.57 101.23) rotate(-54)"/><rect class="cls-1" x="220.04" y="190.94" width="4" height="108.91" transform="translate(-101.83 177.37) rotate(-36)"/><rect class="cls-1" x="96.28" y="20.05" width="4" height="110" transform="translate(-25.34 72.1) rotate(-36)"/><rect class="cls-1" x="190.45" y="204.87" width="4" height="109.99" transform="translate(-70.88 72.19) rotate(-18)"/><rect class="cls-1" x="125.55" y="5.14" width="4" height="109.99" transform="translate(-12.34 42.36) rotate(-18)"/><rect class="cls-1" x="158" y="210" width="4" height="110"/><rect class="cls-1" x="158" width="4" height="110"/></svg>
+
+  </div>
+
+
+
+
   <div class="content">
-<!-- <img src="assets/nyāya-logo.svg"> -->
+
+
+    <!-- <img src="assets/nyāya-logo.svg"> -->
     <div class="nav-left">
       <div class="pages">
         <a href="index.html" target="_top">one</a>
@@ -61,16 +103,21 @@
 
     </div>
 
-    <div class="center">
+    <!-- <img src="assets/nyāya icon.svg"> -->
+
+    <div class="centerLogo">
       </span>ny&amacr;ya</span>
     </div>
+
 
     <div id="grad1">
 
       <div class="container">
 
 
-          <div class="centered">Your beliefs in&nbsp;action.</div>
+        <div class="centered">
+
+          Your beliefs in&nbsp;action.</div>
 
         <div class="bodytext">
 
@@ -82,10 +129,9 @@
 
         </div>
 
-        <div class="block">
-</div>
+        <div class="block"></div>
 
-<!-- <div class="logo" style="font-family:nyayasans-open,">&#x263C; &#9788;</div> -->
+        <!-- <div class="logo" style="font-family:nyayasans-open,">&#x263C; &#9788;</div> -->
 
         <!-- <div class="block2"></div> -->
 
@@ -97,9 +143,9 @@
       <!-- </div> -->
 
     </div>
-      <div class="contact"><a href="mailto: milo@milobonacci.com" target="_blank">
+    <div class="contact"><a href="mailto: milo@milobonacci.com" target="_blank">
         Get in touch.
-      </div>
+    </div>
 
 </body>
 

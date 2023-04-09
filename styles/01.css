@@ -9,7 +9,6 @@
 }
 
 body {
-  background-color: SeaShell;
   font-kerning: normal;
   background-color: #011c40;
   line-height: 1.1;
@@ -26,6 +25,44 @@ body {
 
 .logo {
   font-size: 20vw;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+svg {
+  display: block;
+  margin: auto;
+  max-width: 80vw;
+  max-height: 98vh;
+  transform: translateY(-1vh);
+  scroll-behavior: smooth;
+  z-index: 2000;
+}
+
+.cls-1 {
+  fill: #d9043d;
+}
+
+.centerLogo {
+  height: 50vh;
+  top: -4rem;
+  position: -webkit-sticky;
+  position: sticky;
+  vertical-align: bottom;
+  transform: translateY(-15px);
+  transform: translateY(33.333vh);
+  justify-content: center; */
+  font-size: 20rem;
+  left: 50vw;
+  font-size: 20rem;
+  text-align: center;
+  color: #d9043d;
+  z-index: 0;
+  font-kerning: normal;
 }
 
 .content {
@@ -173,27 +210,7 @@ a:active {
   position: relative;
   z-index: -100;
   /* background: seashell; */
-  background: seashell;
-}
-
-.block2 {
-  width: 60vw;
-  margin: auto;
-  height: 700px;
-  z-index: 10000;
-  position: relative;
-  /* background: #011c40; */
-    background: black;
-}
-
-.block3 {
-  width: 100%;
-  margin: auto;
-  height: 700px;
-  z-index: 2000;
-  position: relative;
-  margin-top: 100px;
-  background: seashell;
+  /* background: darkgoldenrod; */
 }
 
 .contact {
@@ -209,17 +226,12 @@ a:active {
   /* padding-bottom: 8vh; */
 }
 
-.center {
-  margin: 0;
-  position: fixed;
-  top: 42vh;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-  font-size: 20rem;
-  color: #d9043d;
-  z-index: 0;
-  font-kerning: normal;
-  /* mix-blend-mode: difference; */
+.centered {
+  font-size: 8rem;
+  position: relative;
+  text-align: center;
+  margin-top: 66.666vh;
+  line-height: .95em;
 }
 
 .heading {
@@ -250,12 +262,4 @@ a:active {
   padding-bottom: 100px;
   z-index: 100;
   position: relative;
-}
-
-.centered {
-  font-size: 8rem;
-  position: relative;
-  text-align: center;
-  margin-top: 66.666vh;
-  line-height: .95em;
 }
