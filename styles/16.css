@@ -10,12 +10,12 @@
 
 body {
   font-kerning: normal;
-  /* background-color: linen; */
-  background-image: linear-gradient(coral, midnightblue, coral);
+  /* background-color: silver; */
+  background-image: linear-gradient(slategray, darkslategray, slategray);
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: coral;
+  color: MediumAquaMarine;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
@@ -49,9 +49,10 @@ img {
   left: 50vw;
   font-size: 20rem;
   text-align: center;
-  color: midnightblue;
+  color: darkslategray;
   z-index: 0;
   font-kerning: normal;
+  /* mix-blend-mode: difference; */
 
   -webkit-transform: translate3d(0,33.33vh,0);
 
@@ -73,11 +74,11 @@ svg {
 }
 
 .cls-1 {
-  fill: midnightblue;
+  fill: MediumAquaMarine;
 }
 
 .st0 {
-  fill: midnightblue;
+  fill: MediumAquaMarine;
 }
 
 .content {
@@ -140,9 +141,9 @@ svg {
   padding-right: 5%;
   padding-top: 1.5em;
   padding-bottom: 2em;
-  color: tomato;
-  background-color: midnightblue;
-  z-index: 100;
+  color: white;
+  background-color: MediumAquaMarine;
+  z-index: 1000;
   position: relative;
   /* mix-blend-mode: difference; */
 
@@ -160,7 +161,7 @@ svg {
   height: 4rem;
   background-color: inherit;
   /* opacity: 80%; */
-  color: tomato;
+  color: MediumAquaMarine;
   font-family: 'nyayasans-open';
   padding-top: 15px;
   text-align: left;
@@ -177,7 +178,7 @@ svg {
   height: 4rem;
   /* background-color: #011c40; */
   /* opacity: 80%; */
-  color: tomato;
+  color: MediumAquaMarine;
   font-family: 'nyayasans-open';
   padding-top: 15px;
   text-align: right;
@@ -227,9 +228,10 @@ a:active {
   height: 75vh;
   z-index: 2000;
   position: relative;
-  z-index: -100;
+  z-index: 2200;
   /* background: seashell; */
-  /* background: midnightblue; */
+  /* background: black;
+  mix-blend-mode: difference; */
 }
 
 .contact {
@@ -237,7 +239,7 @@ a:active {
   font-size: 8rem;
   position: relative;
   /* background-color: #011c40; */
-  color: midnightblue;
+  color: whitesmoke;
   text-align: center;
   z-index: -10;
   position: relative;

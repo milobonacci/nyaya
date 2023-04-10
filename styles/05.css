@@ -11,6 +11,8 @@
 body {
   font-kerning: normal;
   background-color: seashell;
+  /* background-image: linear-gradient(seashell, #011c40, seashell); */
+
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
