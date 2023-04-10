@@ -10,12 +10,12 @@
 
 body {
   font-kerning: normal;
-  background-color: #59351b;
-  /* background-image: linear-gradient(burlywood, peru, burlywood); */
+  /* background-color: silver; */
+  background-image: linear-gradient(darkslategray, silver, darkslategray);
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: whitesmoke;
+  color: greenyellow;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
@@ -49,9 +49,10 @@ img {
   left: 50vw;
   font-size: 20rem;
   text-align: center;
-  color: tomato;
+  color: greenyellow;
   z-index: 0;
   font-kerning: normal;
+  /* mix-blend-mode: difference; */
 
   -webkit-transform: translate3d(0,33.33vh,0);
 
@@ -73,11 +74,11 @@ svg {
 }
 
 .cls-1 {
-  fill: tomato;
+  fill: greenyellow;
 }
 
 .st0 {
-  fill: tomato;
+  fill: greenyellow;
 }
 
 .content {
@@ -140,8 +141,8 @@ svg {
   padding-right: 5%;
   padding-top: 1.5em;
   padding-bottom: 2em;
-  color: white;
-  background-color: tomato;
+  color: greenyellow;
+  background-color: darkslategray;
   z-index: 1000;
   position: relative;
   /* mix-blend-mode: difference; */
@@ -160,7 +161,7 @@ svg {
   height: 4rem;
   background-color: inherit;
   /* opacity: 80%; */
-  color: tomato;
+  color: greenyellow;
   font-family: 'nyayasans-open';
   padding-top: 15px;
   text-align: left;
@@ -177,7 +178,7 @@ svg {
   height: 4rem;
   /* background-color: #011c40; */
   /* opacity: 80%; */
-  color: tomato;
+  color: greenyellow;
   font-family: 'nyayasans-open';
   padding-top: 15px;
   text-align: right;
@@ -217,7 +218,7 @@ a:hover {
 }
 
 a:active {
-color: tomato;
+color: greenyellow;
 }
 
 .block {
@@ -284,4 +285,5 @@ color: tomato;
   padding-bottom: 100px;
   z-index: 100;
   position: relative;
+  color: darkslategray;
 }

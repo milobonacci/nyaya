@@ -15,7 +15,7 @@ body {
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: whitesmoke;
+  color: darkslategray;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
@@ -140,7 +140,7 @@ svg {
   padding-right: 5%;
   padding-top: 1.5em;
   padding-bottom: 2em;
-  color: white;
+  color: darkslategray;
   background-color: gold;
   z-index: 1000;
   position: relative;
@@ -160,7 +160,7 @@ svg {
   height: 4rem;
   background-color: inherit;
   /* opacity: 80%; */
-  color: gold;
+  color: darkslategray;
   font-family: 'nyayasans-open';
   padding-top: 15px;
   text-align: left;
@@ -177,7 +177,7 @@ svg {
   height: 4rem;
   /* background-color: #011c40; */
   /* opacity: 80%; */
-  color: gold;
+  color: darkslategray;
   font-family: 'nyayasans-open';
   padding-top: 15px;
   text-align: right;
@@ -212,13 +212,12 @@ a:visited {
 
 a:hover {
   text-decoration: overline;
-  text-decoration-thickness: .05em;
+  text-decoration-thickness: .033em;
   text-decoration-position: auto;
 }
 
 a:active {
-  text-decoration: underline;
-  text-shadow: 0 0 15px seashell;
+color: gold;
 }
 
 .block {
@@ -240,7 +239,7 @@ a:active {
   /* background-color: #011c40; */
   color: whitesmoke;
   text-align: center;
-  z-index: -10;
+  z-index: 2000;
   position: relative;
   /* margin-bottom: 20vh; */
   /* padding-bottom: 8vh; */

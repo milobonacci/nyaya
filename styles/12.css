@@ -19,7 +19,7 @@ body {
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
-  -webkit-hyphens: manual; 
+  -webkit-hyphens: manual;
   -ms-hyphens: manual;
   hyphens: manual;
 }
@@ -212,13 +212,12 @@ a:visited {
 
 a:hover {
   text-decoration: overline;
-  text-decoration-thickness: .05em;
+  text-decoration-thickness: .033em;
   text-decoration-position: auto;
 }
 
 a:active {
-  text-decoration: underline;
-  text-shadow: 0 0 15px seashell;
+color: deeppink;
 }
 
 .block {
@@ -240,7 +239,7 @@ a:active {
   /* background-color: #011c40; */
   color: whitesmoke;
   text-align: center;
-  z-index: -10;
+  z-index: 2000;
   position: relative;
   /* margin-bottom: 20vh; */
   /* padding-bottom: 8vh; */

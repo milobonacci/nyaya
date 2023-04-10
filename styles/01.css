@@ -202,13 +202,12 @@ a:visited {
 
 a:hover {
   text-decoration: overline;
-  text-decoration-thickness: .05em;
+  text-decoration-thickness: .033em;
   text-decoration-position: auto;
 }
 
 a:active {
-  text-decoration: underline;
-  text-shadow: 0 0 15px seashell;
+color: #d9043d;
 }
 
 .block {
@@ -229,7 +228,7 @@ a:active {
   background-color: #011c40;
   color: seashell;
   text-align: center;
-  z-index: -10;
+  z-index: 2000;
   position: relative;
   /* margin-bottom: 20vh; */
   /* padding-bottom: 8vh; */
