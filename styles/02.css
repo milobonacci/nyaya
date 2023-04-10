@@ -232,7 +232,7 @@ color: #d9043d;
   padding-top: 75vh;
   font-size: 8rem;
   position: relative;
-  background-color: black;
+  /* background-color: black; */
   color: seashell;
   text-align: center;
   z-index: 2000;
