@@ -184,9 +184,26 @@ text-transform: full-width;
 vertical-align: top;
 }
   </style>
+
+  <style>
+    #grad1 {
+
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin: -10px;
+
+      /* height: 400vh;
+      background-image: linear-gradient(white, black); */
+
+      z-index: -100;
+    }
+
+    </style>
 </head>
 
-<body>
+<body style="background:darkslategray;">
 
   <div class="topnav" id="myTopnav">
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -208,6 +225,8 @@ vertical-align: top;
           </svg>
       </div>
     </a>
+
+
     <a href="index.html">About</a>
     <a href="products.html">Products</a>
     <!-- <a href="careers.html">Careers</a> -->
