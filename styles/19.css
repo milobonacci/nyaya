@@ -323,7 +323,7 @@ svg {
   div.pull {
     font-size: 350%;
   }
-  
+
 }
 
 @media (max-width: 300px) {
@@ -346,7 +346,16 @@ svg {
 
   @media (max-height: 500px) {
     html {
-      font-size: 60%;
+      font-size: 65%;
+    }
+    div.marqueContainer {
+      height: 80vh;
+      margin-top: 10vh;
+    }
+  }
+  @media (max-height: 600px) {
+    html {
+      font-size: 70%;
     }
     div.marqueContainer {
       height: 80vh;
