@@ -56,26 +56,12 @@
   </script> -->
 
   <style>
-
-    /* #grad1 {
-
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      margin: -10px;
-
-
-      z-index: -100;
-    } */
-
-    /* Design based on Blue Login Field of Kevin Sleger https://codepen.io/MurmeltierS/pen/macKb */
-
     body {
       /* background-size: 90vw; */
       font-family: 'nyayasans-open';
       /* -webkit-font-smoothing: antialiased; */
       -moz-osx-font-smoothing: grayscale;
+
       &::before {
         z-index: -1;
         content: '';
@@ -97,14 +83,14 @@
       background: rgba(0, 0, 0, 0.15);
       width: 50vw;
       height: 50vh;
-      /* margin: -140px 0 0 -182px; */
       padding: 2rem;
-      /* box-shadow: 0 0 3px rgba(255, 255, 255, 0.3); */
+
       h2 {
         margin: 0 0 20px;
         line-height: 1;
         font-size: 3rem;
       }
+
       input {
         outline: none;
         display: block;
@@ -120,14 +106,15 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         transition: 0.2s linear;
+
         &input:focus {
           color: white;
           border: 1px solid white;
         }
       }
+
       button {
         cursor: pointer;
-        /* background: #44c4e7; */
         width: 100%;
         padding: 10px 15px;
         border: 0;
@@ -135,13 +122,17 @@
         font-family: 'nyayasans-open';
         font-size: 14px;
         font-weight: 400;
+
         &:hover {
           background: blue;
         }
       }
     }
 
-    .error, .valid{display:none;}
+    .error,
+    .valid {
+      display: none;
+    }
 
     p {
       margin: auto;
@@ -169,20 +160,20 @@
     }
 
 
-button {
-  display: block;
-margin: auto;
-margin-top: 2vh;
-padding: .25rem;
-padding-bottom: .5rem;
-background-color: greenyellow;
-border: 0px;
-width: 47vw;
-font-size: 2rem;
-font-family: 'nyayasans-open';
-text-transform: full-width;
-vertical-align: top;
-}
+    button {
+      display: block;
+      margin: auto;
+      margin-top: 2vh;
+      padding: .25rem;
+      padding-bottom: .5rem;
+      background-color: greenyellow;
+      border: 0px;
+      width: 47vw;
+      font-size: 2rem;
+      font-family: 'nyayasans-open';
+      text-transform: full-width;
+      vertical-align: top;
+    }
   </style>
 
   <style>
@@ -199,8 +190,7 @@ vertical-align: top;
 
       z-index: -100;
     }
-
-    </style>
+  </style>
 </head>
 
 <body style="background:darkslategray;">
@@ -208,21 +198,19 @@ vertical-align: top;
   <div class="topnav" id="myTopnav">
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 
-    <div class="minimenu"
-      <?xml version="1.0" encoding="utf-8"?>
+      <div class="minimenu" <?xml version="1.0" encoding="utf-8" ?>
 
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-             width="120px" height="100px" viewBox="0 0 120 100" style="enable-background:new 0 0 120 100;" xml:space="preserve">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px" height="100px" viewBox="0 0 120 100" style="enable-background:new 0 0 120 100;" xml:space="preserve">
 
-             <style type="text/css">
-               .st0 {
-                 ;
-               }
+          <style type="text/css">
+            .st0 {
+              ;
+            }
           </style>
-          <rect width="120" height="10" class="st0"/>
-          <rect y="90" width="120" height="10" class="st0"/>
-          <rect y="45" width="120" height="10" class="st0"/>
-          </svg>
+          <rect width="120" height="10" class="st0" />
+          <rect y="90" width="120" height="10" class="st0" />
+          <rect y="45" width="120" height="10" class="st0" />
+        </svg>
       </div>
     </a>
 
@@ -231,45 +219,42 @@ vertical-align: top;
     <a href="products.html">Products</a>
     <!-- <a href="careers.html">Careers</a> -->
     <a href="contact.html">Contact</a>
-        <!-- <div class="rightnav"> -->
-          <a href="client.html" target="_top" class="active">Login</a>
-        <!-- </div> -->
+    <!-- <div class="rightnav"> -->
+    <a href="client.html" target="_top" class="active">Login</a>
+    <!-- </div> -->
 
   </div>
 
   <!--Correct username: invitado / pass: hgm2015-->
 
-<section class="form animated flipInX">
-  <div class="topRule">
-  <h2>Login To Your Account</h2>
-</div>
-  <div class="message">
-  <p class="valid">Valid. Please wait a moment.</p>
-  <p class="error">The Username and Password do not match.</p>
-  </div>
-<div class="topRule"
-  <form class="loginbox" autocomplete="off">
-    <input placeholder="Username" type="text" id="username"></input>
-    <input placeholder="Password" type="password" id="password"></input>
-<button id="submit">Login</button>
-</div>
-</form>
-</section>
+  <section class="form animated flipInX">
+    <div class="topRule">
+      <h2>Login To Your Account</h2>
+    </div>
+    <div class="message">
+      <p class="valid">Valid. Please wait a moment.</p>
+      <p class="error">The Username and Password do not match.</p>
+    </div>
+    <div class="topRule" <form class="loginbox" autocomplete="off">
+      <input placeholder="Username" type="text" id="username"></input>
+      <input placeholder="Password" type="password" id="password"></input>
+      <button id="submit">Login</button>
+    </div>
+    </form>
+  </section>
 
 
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-
-
-</script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 
 
 </body>
