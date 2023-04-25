@@ -319,6 +319,11 @@ svg {
     font-size: 40%;
     /* background-color: red; */
   }
+
+  div.pull {
+    font-size: 350%;
+  }
+  
 }
 
 @media (max-width: 300px) {
@@ -350,7 +355,7 @@ svg {
   }
 
   div.pull {
-    font-size: 350%;
+    /* font-size: 350%; */
     overflow: scroll;
   }
 
@@ -358,9 +363,9 @@ svg {
 .pull {
   /* top: 50;
   left: 50; */
-  margin-top: 80px;
+  margin-top: 50px;
   line-height: 1.25;
-  max-width: 600px;
+  max-width: 700px;
   position: absolute;
   padding: inherit;
   font-size: 2rem;
