@@ -11,23 +11,18 @@
 body {
   font-kerning: normal;
   overflow-x: hidden;
-  /* background-color: midnightblue; */
-  background-image: linear-gradient(midnightblue, deeppink, midnightblue);
+  background-color: darkslategray;
+  /* background-image: linear-gradient(slategray, darkslategray, slategray); */
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: whitesmoke;
+  color: mediumaquamarine;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
   -webkit-hyphens: manual;
   -ms-hyphens: manual;
   hyphens: manual;
-}
-
-body.solid {
-  background-color: deeppink;
-  background-image: none;
 }
 
 @-webkit-keyframes animatezoom {
@@ -48,6 +43,102 @@ body.solid {
   to {
     transform: scale(1)
   }
+}
+
+.form {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  background: rgba(0, 0, 0, 0.15);
+  width: 50vw;
+  height: 50vh;
+  /* margin: -140px 0 0 -182px; */
+  padding: 2rem;
+  /* box-shadow: 0 0 3px rgba(255, 255, 255, 0.3); */
+  h2 {
+    margin: 0 0 20px;
+    line-height: 1;
+    font-size: 3rem;
+  }
+}
+
+  input {
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+    border: 13px solid #ccc;
+    color: #ccc;
+    font-family: 'nyayasans-open';
+    box-sizing: border-box;
+    font-size: 14px;
+    font-wieght: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: 0.2s linear;
+    &input:focus {
+      color: white;
+      border: 1px solid white;
+    }
+  }
+  button {
+    cursor: pointer;
+    /* background: #44c4e7; */
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    color: #fff;
+    font-family: 'nyayasans-open';
+    font-size: 14px;
+    font-weight: 400;
+    &:hover {
+      background: blue;
+    }
+  }
+}
+
+.error, .valid{display:none;}
+
+p {
+  margin: auto;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.message {
+  height: 3.5rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  /* background-color: red; */
+}
+
+.topRule {
+  border-top-style: solid;
+  border-width: thin;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+
+button {
+display: block;
+margin: auto;
+margin-top: 2vh;
+padding: .25rem;
+padding-bottom: .5rem;
+background-color: greenyellow;
+border: 0px;
+width: 47vw;
+font-size: 2rem;
+font-family: 'nyayasans-open';
+text-transform: full-width;
+vertical-align: top;
 }
 
 ::placeholder {
@@ -80,10 +171,6 @@ input {
   background: none;
   border: 0;
   padding: 1rem 1rem;
-}
-
-.placeholder {
-  color: red;
 }
 
 .topnav {
@@ -143,10 +230,15 @@ input {
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
+    width: 100vw;
     position: fixed;
-    background-color: midnightblue;
+    background-color: slategray;
     opacity: 95%;
     z-index: 3000;
+    margin: -10px;
+    margin-top: -20px;
+    margin-right: -10px;
+    padding-bottom: 2rem;
   }
 
   .topnav.responsive .icon {
@@ -160,8 +252,26 @@ input {
     display: block;
     font-size: 400%;
     text-align: left;
-    color: whitesmoke;
   }
+}
+
+.maincontact {
+  height: 50vh;
+  top: -4rem;
+  position: -webkit-sticky;
+  position: sticky;
+  vertical-align: bottom;
+  transform: translateY(-15px);
+  transform: translateY(33.333vh);
+  justify-content: center;
+  font-size: 20rem;
+  left: 50vw;
+  font-size: 13vw;
+  text-align: center;
+a  z-index: 0;
+  font-kerning: normal;
+  -webkit-transform: translate3d(0, 40vh, 0);
+  vertical-align: middle;
 }
 
 img {
@@ -194,21 +304,6 @@ a:active {
   color: black;
 }
 
-.centerLogo {
-  height: 50vh;
-  top: -4rem;
-  position: -webkit-sticky;
-  position: sticky;
-  vertical-align: bottom;
-  /* transform: translateX(-1.5vw); */
-  font-size: 18rem;
-  text-align: center;
-  color: deeppink;
-  z-index: 0;
-  font-kerning: normal;
-  -webkit-transform: translate3d(-1vh, 33.33vh, 0);
-}
-
 .marqueContainer {
   display: flex;
   padding-top: 7vh;
@@ -217,40 +312,21 @@ a:active {
   height: 91vh;
 }
 
-.maincontact {
-  height: 50vh;
-  top: -4rem;
-  position: -webkit-sticky;
-  position: sticky;
-  vertical-align: bottom;
-  transform: translateY(-15px);
-  transform: translateY(33.333vh);
-  justify-content: center;
-  font-size: 20rem;
-  left: 50vw;
-  font-size: 13vw;
-  text-align: center;
-a  z-index: 0;
-  font-kerning: normal;
-  -webkit-transform: translate3d(0, 40vh, 0);
-  vertical-align: middle;
-}
-
 svg {
   display: block;
   max-height: 90vh;
-  */ max-width: 90%;
+  max-width: 90%;
   max-height: 90%;
   transform: translateY(-1%);
   scroll-behavior: smooth;
 }
 
 .cls-1 {
-  fill: deeppink;
+  fill: mediumaquamarine;
 }
 
 .st0 {
-  fill: deeppink;
+  fill: mediumaquamarine;
 }
 
 .content {
@@ -293,6 +369,7 @@ svg {
   }
 
   div.pull {
+    font-size: 350%;
   }
 }
 
@@ -360,7 +437,7 @@ div.pull {
 }
 
 .pull {
-  left: 50; */
+  left: 50;
   margin-top: 50px;
   padding-bottom: 2rem;
   line-height: 1.25;
@@ -369,7 +446,6 @@ div.pull {
   padding: inherit;
   font-size: 2rem;
   display: block;
-  color: seashell;
   position: relative;
 }
 
@@ -387,18 +463,6 @@ div.pull {
   z-index: 2200;
 }
 
-.contact {
-  padding-top: 75vh;
-  font-size: 4rem;
-  position: relative;
-  margin-bottom: 0;
-  color: whitesmoke;
-  text-align: center;
-  z-index: 2000;
-  position: relative;
-  padding-bottom: 6vh;
-}
-
 .centered {
   font-size: 8rem;
   position: relative;
@@ -406,35 +470,4 @@ div.pull {
   margin-top: 66.666vh;
   line-height: .95em;
   -webkit-transform: translate3d(0, 0, 0);
-}
-
-.heading {
-  text-align: center;
-  position: fixed;
-  font-size: 30vw;
-  color: whitesmoke;
-  z-index: 10;
-}
-
-#bottom {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: whitesmoke;
-  height: 200px;
-  font-size: 3em;
-  position: relative;
-  text-align: center;
-  margin: auto;
-  line-height: .95em;
-}
-
-.bodytext {
-  font-size: 4rem;
-  overflow: scroll;
-  padding-top: 90vh;
-  padding-bottom: 20vh;
-  z-index: 100;
-  position: relative;
-  color: whitesmoke;
 }

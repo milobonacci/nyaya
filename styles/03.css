@@ -11,7 +11,7 @@
 body {
   font-kerning: normal;
   overflow-x: hidden;
-  /* background-color: silver; */
+  /* background-color: black; */
   background-image: linear-gradient(white, black);
   line-height: 1.1;
   font-family: 'nyayasans-open';
@@ -23,6 +23,11 @@ body {
   -webkit-hyphens: manual;
   -ms-hyphens: manual;
   hyphens: manual;
+}
+
+body.solid {
+  background-color: darkgray;
+  background-image: none;
 }
 
 @-webkit-keyframes animatezoom {
@@ -89,7 +94,7 @@ input {
   z-index: 3000;
   margin-top: 0px;
   padding: .5rem 1rem;
-  background-blend-mode: exclusion;
+  color: rgba(127, 127, 127, 1);;
 }
 
 .topnav a {
@@ -103,11 +108,9 @@ input {
   height: 6vh;
 }
 
-.topnav a:hover {
-}
+.topnav a:hover {}
 
 .topnav a.active {
-
   text-decoration: overline;
 }
 
@@ -115,8 +118,7 @@ input {
   display: none;
 }
 
-.login a {
-}
+.login a {}
 
 .minimenu {
   padding-top: 1rem;
@@ -142,7 +144,8 @@ input {
 @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: fixed;
-    background-color: darkgray;
+    background-color: whitesmoke;
+    opacity: 95%;
     z-index: 3000;
   }
 
@@ -157,6 +160,7 @@ input {
     display: block;
     font-size: 400%;
     text-align: left;
+    color: black;
   }
 }
 
@@ -187,7 +191,7 @@ a:hover {
 }
 
 a:active {
-  color: white;
+  color: black;
 }
 
 .centerLogo {
@@ -226,7 +230,7 @@ a:active {
   left: 50vw;
   font-size: 13vw;
   text-align: center;
-  color: greenyellow;
+  color: darkgoldenrod;
   z-index: 0;
   font-kerning: normal;
   -webkit-transform: translate3d(0, 40vh, 0);
@@ -235,8 +239,8 @@ a:active {
 
 svg {
   display: block;
-  max-height: 90vh; */
-  max-width: 90%;
+  max-height: 90vh;
+  */ max-width: 90%;
   max-height: 90%;
   transform: translateY(-1%);
   scroll-behavior: smooth;
@@ -256,7 +260,6 @@ svg {
   padding-bottom: 0px;
   margin: 3%;
   margin-bottom: 0px;
-
 }
 
 .container {}
@@ -288,18 +291,15 @@ svg {
 @media (max-width: 600px) {
   html {
     font-size: 60%;
-    /* background-color: orange; */
   }
 
   div.pull {
-    /* font-size: 350%; */
   }
 }
 
 @media (max-width: 500px) {
   html {
     font-size: 50%;
-    /* background-color: blue; */
   }
 
   div.pull {
@@ -310,60 +310,57 @@ svg {
 @media (max-width: 400px) {
   html {
     font-size: 40%;
-    /* background-color: red; */
   }
 
   div.pull {
     font-size: 350%;
   }
-
 }
 
 @media (max-width: 300px) {
-
   div.centerLogo {
     font-size: 15rem;
   }
-
 }
 
-  @media (max-height: 400px) {
-    html {
-      font-size: 60%;
-    }
-    div.marqueContainer {
-      height: 80vh;
-      margin-top: 10vh;
-    }
+@media (max-height: 400px) {
+  html {
+    font-size: 60%;
   }
 
-  @media (max-height: 500px) {
-    html {
-      font-size: 65%;
-    }
-    div.marqueContainer {
-      height: 80vh;
-      margin-top: 10vh;
-    }
+  div.marqueContainer {
+    height: 80vh;
+    margin-top: 10vh;
   }
-  @media (max-height: 600px) {
-    html {
-      font-size: 70%;
-    }
-    div.marqueContainer {
-      height: 80vh;
-      margin-top: 10vh;
-    }
+}
+
+@media (max-height: 500px) {
+  html {
+    font-size: 65%;
   }
 
-  div.pull {
-    /* font-size: 350%; */
-    overflow: scroll;
+  div.marqueContainer {
+    height: 80vh;
+    margin-top: 10vh;
+  }
+}
+
+@media (max-height: 600px) {
+  html {
+    font-size: 70%;
   }
 
+  div.marqueContainer {
+    height: 80vh;
+    margin-top: 10vh;
+  }
+}
+
+div.pull {
+  overflow: scroll;
+}
 
 .pull {
-  /* top: 50;
   left: 50; */
   margin-top: 50px;
   padding-bottom: 2rem;
@@ -373,7 +370,7 @@ svg {
   padding: inherit;
   font-size: 2rem;
   display: block;
-  color: greenyellow;
+  color: seashell;
   position: relative;
 }
 
@@ -389,7 +386,6 @@ svg {
   z-index: 2000;
   position: relative;
   z-index: 2200;
-
 }
 
 .contact {
@@ -417,7 +413,7 @@ svg {
   text-align: center;
   position: fixed;
   font-size: 30vw;
-  color: #d9043d;
+  color: whitesmoke;
   z-index: 10;
 }
 
@@ -425,7 +421,7 @@ svg {
   position: absolute;
   bottom: 0;
   width: 100%;
-  color: seashell;
+  color: whitesmoke;
   height: 200px;
   font-size: 3em;
   position: relative;
@@ -441,5 +437,5 @@ svg {
   padding-bottom: 20vh;
   z-index: 100;
   position: relative;
-  color: darkslategray;
+  color: whitesmoke;
 }
