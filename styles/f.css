@@ -198,6 +198,10 @@ a:active {
   height: 91vh;
 }
 
+section {
+  height: 1000px;
+}
+
 svg {
   display: block;
   max-height: 90vh;
