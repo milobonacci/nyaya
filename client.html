@@ -12,11 +12,11 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="jquery.cookie.js"></script>
-  <link rel="stylesheet" type="text/css" href="styles/q.css">
+  <!-- <link rel="stylesheet" type="text/css" href="styles/q.css"> -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
-  <!-- <script>
+  <script>
   function getStylesheet() {
         var currentTime = new Date().getHours();
         if (0 <= currentTime&&currentTime < 1) {
@@ -141,7 +141,7 @@
   }
 
   getStylesheet();
-  </script> -->
+  </script>
 
   <!-- <script>
     function get_randomCssNum() {
@@ -166,35 +166,31 @@
     document.write(getaCss());
   </script> -->
 
-<script>
+  <script>
+    $(document).ready(function() {
+      //$('#username').focus();
 
-$(document).ready(function() {
-    //$('#username').focus();
-
-    $('#submit').click(function() {
+      $('#submit').click(function() {
 
         event.preventDefault(); // prevent PageReLoad
 
-       var ValidEmail = $('#username').val() === 'invitado'; // User validate
-var ValidPassword = $('#password').val() === 'hgm2015'; // Password validate
+        var ValidEmail = $('#username').val() === 'invitado'; // User validate
+        var ValidPassword = $('#password').val() === 'hgm2015'; // Password validate
 
         if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
-            $('.valid').css('display', 'block');
-            window.location = "https://nyaya.tech"; // go to home.html
+          $('.valid').css('display', 'block');
+          window.location = "https://nyaya.tech"; // go to home.html
+        } else {
+          $('.error').css('display', 'block'); // show error msg
         }
-        else {
-            $('.error').css('display', 'block'); // show error msg
-        }
+      });
     });
-});
-
-</script>
+  </script>
 
 
 
 
   <style>
-
     /* #grad1 {
 
       -webkit-background-size: cover;
@@ -212,6 +208,7 @@ var ValidPassword = $('#password').val() === 'hgm2015'; // Password validate
     body {
       font-family: 'nyayasans-open';
       -moz-osx-font-smoothing: grayscale;
+
       &::before {
         z-index: -1;
         content: '';
@@ -224,23 +221,25 @@ var ValidPassword = $('#password').val() === 'hgm2015'; // Password validate
       }
 
 
-    .form {
-      position: absolute;
-      top: 18vh;
-      left: 25vw;
-      background: rgba(0, 0, 0, 0.15);
-      width: 50vw;
-      max-height: 400px;
-      /* min-height: 300px; */
-      /* margin: -140px 0 0 -182px; */
-      padding: 2rem;
-      /* box-shadow: 0 0 3px rgba(255, 255, 255, 0.3); */
-      h2 {
-        margin: 0 0 20px;
-        line-height: 1;
-        font-size: 3rem;
+      .form {
+        position: fixed;
+        top: 18vh;
+        left: 7vw;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.15);
+        width: 80vw;
+        max-height: 400px;
+        /* min-height: 300px; */
+        /* margin: -140px 0 0 -182px; */
+        padding: 2rem;
+
+        /* box-shadow: 0 0 3px rgba(255, 255, 255, 0.3); */
+        h2 {
+          margin: 0 0 20px;
+          line-height: 1;
+          font-size: 3rem;
+        }
       }
-    }
 
       input {
         outline: none;
@@ -257,11 +256,13 @@ var ValidPassword = $('#password').val() === 'hgm2015'; // Password validate
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         transition: 0.2s linear;
+
         &input:focus {
           color: white;
           border: 1px solid white;
         }
       }
+
       button {
         cursor: pointer;
         z-index: 4000;
@@ -274,13 +275,17 @@ var ValidPassword = $('#password').val() === 'hgm2015'; // Password validate
         font-family: 'nyayasans-open';
         font-size: 14px;
         font-weight: 400;
+
         &:hover {
           background: white;
         }
       }
     }
 
-    .error, .valid{display:none;}
+    .error,
+    .valid {
+      display: none;
+    }
 
     p {
       margin: auto;
@@ -308,20 +313,20 @@ var ValidPassword = $('#password').val() === 'hgm2015'; // Password validate
     }
 
 
-button {
-  display: block;
-margin: auto;
-margin-top: 2vh;
-padding: .25rem;
-padding-bottom: .5rem;
-/* background-color: greenyellow; */
-border: 0px;
-width: 47vw;
-font-size: 2rem;
-font-family: 'nyayasans-open';
-text-transform: full-width;
-vertical-align: top;
-}
+    button {
+      display: block;
+      margin: auto;
+      margin-top: 2vh;
+      padding: .25rem;
+      padding-bottom: .5rem;
+      /* background-color: greenyellow; */
+      border: 0px;
+      width: 47vw;
+      font-size: 2rem;
+      font-family: 'nyayasans-open';
+      text-transform: full-width;
+      vertical-align: top;
+    }
   </style>
 
   <style>
@@ -338,8 +343,7 @@ vertical-align: top;
 
       z-index: -100;
     }
-
-    </style>
+  </style>
 </head>
 
 <body>
@@ -347,21 +351,20 @@ vertical-align: top;
   <div class="topnav" id="myTopnav">
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 
-    <div class="minimenu">
-      <?xml version="1.0" encoding="utf-8"?>
+      <div class="minimenu">
+        <?xml version="1.0" encoding="utf-8"?>
 
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-             width="120px" height="100px" viewBox="0 0 120 100" style="enable-background:new 0 0 120 100;" xml:space="preserve">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px" height="100px" viewBox="0 0 120 100" style="enable-background:new 0 0 120 100;" xml:space="preserve">
 
-             <style type="text/css">
-               .st0 {
-                 ;
-               }
+          <style type="text/css">
+            .st0 {
+              ;
+            }
           </style>
-          <rect width="120" height="10" class="st0"/>
-          <rect y="90" width="120" height="10" class="st0"/>
-          <rect y="45" width="120" height="10" class="st0"/>
-          </svg>
+          <rect width="120" height="10" class="st0" />
+          <rect y="90" width="120" height="10" class="st0" />
+          <rect y="45" width="120" height="10" class="st0" />
+        </svg>
       </div>
     </a>
 
@@ -375,36 +378,35 @@ vertical-align: top;
   </div>
 
   <!--Correct username: invitado / pass: hgm2015-->
-<section class="form animated flipInX">
-  <div class="topRule">
-  <h2>Login To Your Account</h2>
-</div>
-  <div class="message">
-  <p class="valid">Valid. Please wait a moment.</p>
-  <p class="error">The Username and Password do not match.</p>
+  <div class="form">
+    <div class="topRule">
+      <h2>Login To Your Account</h2>
+    </div>
+    <div class="message">
+      <p class="valid">Valid. Please wait a moment.</p>
+      <p class="error">The Username and Password do not match.</p>
+    </div>
+    <div class="topRule">
+      <form class="loginbox" autocomplete="off">
+        <input placeholder="Username" type="text" id="username"></input>
+        <input placeholder="Password" type="password" id="password"></input>
+        <button id="submit">Login</button>
+    </div>
+    </form>
   </div>
-<div class="topRule">
-  <form class="loginbox" autocomplete="off">
-    <input placeholder="Username" type="text" id="username"></input>
-    <input placeholder="Password" type="password" id="password"></input>
-<button id="submit">Login</button>
-</div>
-</form>
-</section>
 
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
 
-
-</script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 
 
 </body>
