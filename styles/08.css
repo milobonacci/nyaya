@@ -12,22 +12,17 @@ body {
   font-kerning: normal;
   overflow-x: hidden;
   /* background-color: seashell; */
-  background-image: linear-gradient(coral, indigo, coral);
+  background-image: linear-gradient(midnightblue, whitesmoke, midnightblue);
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: coral;
+  color: midnightblue;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
   -webkit-hyphens: manual;
   -ms-hyphens: manual;
   hyphens: manual;
-}
-
-body.solid {
-  background-color: indigo;
-  background-image: none;
 }
 
 @-webkit-keyframes animatezoom {
@@ -94,7 +89,7 @@ input {
   z-index: 3000;
   margin-top: 0px;
   padding: .5rem 1rem;
-  color: coral;
+  color: whitesmoke;
 }
 
 .topnav a {
@@ -143,11 +138,20 @@ input {
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
+    width: 100vw;
     position: fixed;
-    background-color: linen;
+    background-color: whitesmoke;
     opacity: 95%;
     z-index: 3000;
-  }
+    margin: -10px;
+    margin-top: -20px;
+    margin-right: -10px;
+    padding-bottom: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;  }
+
+
+
 
   .topnav.responsive .icon {
     position: absolute;
@@ -160,7 +164,7 @@ input {
     display: block;
     font-size: 400%;
     text-align: left;
-    color: coral;
+    color: midnightblue;
   }
 }
 
@@ -172,11 +176,12 @@ img {
 
 .icon {
   font-size: 20vw;
+
 }
 
 a:link {
   text-decoration: none;
-  color: indigo;
+  color: white;
 }
 
 a:visited {
@@ -203,7 +208,7 @@ a:active {
   /* transform: translateX(-1.5vw); */
   font-size: 18rem;
   text-align: center;
-  color: coral;
+  color: whitesmoke;
   z-index: 0;
   font-kerning: normal;
   -webkit-transform: translate3d(-1vh, 33.33vh, 0);
@@ -246,11 +251,11 @@ svg {
 }
 
 .cls-1 {
-  fill: coral;
+  fill: whitesmoke;
 }
 
 .st0 {
-  fill: coral;
+  fill: whitesmoke;
 }
 
 .content {
@@ -436,5 +441,5 @@ div.pull {
   padding-bottom: 20vh;
   z-index: 100;
   position: relative;
-  color: coral;
+  color: midnightblue;
 }

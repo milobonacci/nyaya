@@ -11,12 +11,12 @@
 body {
   font-kerning: normal;
   overflow-x: hidden;
-  /* background-color: black; */
-  background-image: linear-gradient(white, black);
+  /* background-color: seashell; */
+  background-image: linear-gradient(lightgray, darkgray);
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: seashell;
+  color: whitesmoke;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
@@ -94,7 +94,7 @@ input {
   z-index: 3000;
   margin-top: 0px;
   padding: .5rem 1rem;
-  color: rgba(127, 127, 127, 1);;
+  color: whitesmoke;
 }
 
 .topnav a {
@@ -143,10 +143,17 @@ input {
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
+    width: 100vw;
     position: fixed;
-    background-color: whitesmoke;
+    background-color: darkgray;
     opacity: 95%;
     z-index: 3000;
+    margin: -10px;
+    margin-top: -20px;
+    margin-right: -10px;
+    padding-bottom: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
   }
 
   .topnav.responsive .icon {
@@ -160,7 +167,7 @@ input {
     display: block;
     font-size: 400%;
     text-align: left;
-    color: black;
+    color: whitesmoke;
   }
 }
 
@@ -176,7 +183,7 @@ img {
 
 a:link {
   text-decoration: none;
-  color: inherit;
+  color: whitesmoke;
 }
 
 a:visited {
@@ -226,12 +233,11 @@ a:active {
   transform: translateY(-15px);
   transform: translateY(33.333vh);
   justify-content: center;
-  */ font-size: 20rem;
+  font-size: 20rem;
   left: 50vw;
   font-size: 13vw;
   text-align: center;
-  color: darkgoldenrod;
-  z-index: 0;
+a  z-index: 0;
   font-kerning: normal;
   -webkit-transform: translate3d(0, 40vh, 0);
   vertical-align: middle;
@@ -247,11 +253,11 @@ svg {
 }
 
 .cls-1 {
-  fill: lightgray;
+  fill: whitesmoke;
 }
 
 .st0 {
-  fill: lightgray;
+  fill: whitesmoke;
 }
 
 .content {

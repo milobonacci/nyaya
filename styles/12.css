@@ -11,12 +11,12 @@
 body {
   font-kerning: normal;
   overflow-x: hidden;
-  /* background-color: midnightblue; */
-  background-image: linear-gradient(midnightblue, deeppink, midnightblue);
+  /* background-color: #59351b; */
+  background-image: linear-gradient(darkslategray, silver, darkslategray);
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: whitesmoke;
+  color: darkslategray;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
@@ -26,7 +26,7 @@ body {
 }
 
 body.solid {
-  background-color: deeppink;
+  background-color: #011c40;
   background-image: none;
 }
 
@@ -144,9 +144,16 @@ input {
 @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: fixed;
-    background-color: midnightblue;
+    background-color: darkslategray;
+    width: 100vw;
     opacity: 95%;
     z-index: 3000;
+    margin: -10px;
+    margin-top: -20px;
+    margin-right: -10px;
+    padding-bottom: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
   }
 
   .topnav.responsive .icon {
@@ -203,7 +210,7 @@ a:active {
   /* transform: translateX(-1.5vw); */
   font-size: 18rem;
   text-align: center;
-  color: deeppink;
+  color: greenyellow;
   z-index: 0;
   font-kerning: normal;
   -webkit-transform: translate3d(-1vh, 33.33vh, 0);
@@ -246,11 +253,11 @@ svg {
 }
 
 .cls-1 {
-  fill: deeppink;
+  fill: greenyellow;
 }
 
 .st0 {
-  fill: deeppink;
+  fill: greenyellow;
 }
 
 .content {

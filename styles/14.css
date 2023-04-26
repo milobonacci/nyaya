@@ -11,8 +11,8 @@
 body {
   font-kerning: normal;
   overflow-x: hidden;
-  background-color: #59351b;
-  /* background-image: linear-gradient(burlywood, peru, burlywood); */
+  /* background-color: midnightblue; */
+  background-image: linear-gradient(burlywood, peru, burlywood);
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
@@ -26,7 +26,7 @@ body {
 }
 
 body.solid {
-  background-color: #59351b;
+  background-color: peru;
   background-image: none;
 }
 
@@ -145,8 +145,15 @@ input {
   .topnav.responsive {
     position: fixed;
     background-color: burlywood;
+    width: 100vw;
     opacity: 95%;
     z-index: 3000;
+    margin: -10px;
+    margin-top: -20px;
+    margin-right: -10px;
+    padding-bottom: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
   }
 
   .topnav.responsive .icon {
@@ -203,7 +210,7 @@ a:active {
   /* transform: translateX(-1.5vw); */
   font-size: 18rem;
   text-align: center;
-  color: tomato;
+  color: deeppink;
   z-index: 0;
   font-kerning: normal;
   -webkit-transform: translate3d(-1vh, 33.33vh, 0);
@@ -246,11 +253,11 @@ svg {
 }
 
 .cls-1 {
-  fill: tomato;
+  fill: deeppink;
 }
 
 .st0 {
-  fill: tomato;
+  fill: deeppink;
 }
 
 .content {

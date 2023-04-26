@@ -11,12 +11,12 @@
 body {
   font-kerning: normal;
   overflow-x: hidden;
-  /* background-color: #59351b; */
-  background-image: linear-gradient(slategray, silver, slategray);
+  background-color: #59351b;
+  /* background-image: linear-gradient(burlywood, peru, burlywood); */
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: darkslategray;
+  color: whitesmoke;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
@@ -26,7 +26,7 @@ body {
 }
 
 body.solid {
-  background-color: silver;
+  background-color: #59351b;
   background-image: none;
 }
 
@@ -144,9 +144,15 @@ input {
 @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: fixed;
-    background-color: slategray;
+    background-color: #472A16;
+    width: 100vw;
     opacity: 95%;
     z-index: 3000;
+    margin: -10px;
+    margin-top: -20px;
+    margin-right: -10px;
+    padding-bottom: 2rem;
+    padding-left: 20px;
   }
 
   .topnav.responsive .icon {
@@ -203,7 +209,7 @@ a:active {
   /* transform: translateX(-1.5vw); */
   font-size: 18rem;
   text-align: center;
-  color: gold;
+  color: tomato;
   z-index: 0;
   font-kerning: normal;
   -webkit-transform: translate3d(-1vh, 33.33vh, 0);
@@ -246,11 +252,11 @@ svg {
 }
 
 .cls-1 {
-  fill: gold;
+  fill: tomato;
 }
 
 .st0 {
-  fill: gold;
+  fill: tomato;
 }
 
 .content {

@@ -12,11 +12,11 @@ body {
   font-kerning: normal;
   overflow-x: hidden;
   /* background-color: seashell; */
-  background-image: linear-gradient(mistyrose, pink);
+  background-image: linear-gradient(linen, tomato, linen);
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: palevioletred;
+  color: tomato;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
@@ -26,7 +26,7 @@ body {
 }
 
 body.solid {
-  background-color: pink;
+  background-color: linen;
   background-image: none;
 }
 
@@ -94,7 +94,7 @@ input {
   z-index: 3000;
   margin-top: 0px;
   padding: .5rem 1rem;
-  color: palevioletred;
+  color: tomato;
 }
 
 .topnav a {
@@ -143,10 +143,17 @@ input {
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
+    width: 100vw;
     position: fixed;
-    background-color: mistyrose;
+    background-color: linen;
     opacity: 95%;
     z-index: 3000;
+    margin: -10px;
+    margin-top: -20px;
+    margin-right: -10px;
+    padding-bottom: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
   }
 
   .topnav.responsive .icon {
@@ -160,7 +167,7 @@ input {
     display: block;
     font-size: 400%;
     text-align: left;
-    color: palevioletred;
+    color: tomato;
   }
 }
 
@@ -176,7 +183,7 @@ img {
 
 a:link {
   text-decoration: none;
-  color: palevioletred;
+  color: tomato;
 }
 
 a:visited {
@@ -203,7 +210,7 @@ a:active {
   /* transform: translateX(-1.5vw); */
   font-size: 18rem;
   text-align: center;
-  color: palevioletred;
+  color: tomato;
   z-index: 0;
   font-kerning: normal;
   -webkit-transform: translate3d(-1vh, 33.33vh, 0);
@@ -246,11 +253,11 @@ svg {
 }
 
 .cls-1 {
-  fill: palevioletred;
+  fill: tomato;
 }
 
 .st0 {
-  fill: palevioletred;
+  fill: tomato;
 }
 
 .content {
@@ -436,5 +443,5 @@ div.pull {
   padding-bottom: 20vh;
   z-index: 100;
   position: relative;
-  color: palevioletred;
+  color: tomato;
 }

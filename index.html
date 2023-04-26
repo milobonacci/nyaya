@@ -12,7 +12,7 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="jquery.cookie.js"></script>
-  <!-- <link rel="stylesheet" type="text/css" href="styles/18.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="styles/01.css"> -->
 
 
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -24,45 +24,134 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
-
   <script>
-    function get_randomCssNum() {
-      var ranCssNum = Math.floor(Math.random() * 20);
 
-      return ranCssNum;
-    }
+  function getStylesheet() {
+        var currentTime = new Date().getHours();
+        if (0 <= currentTime&&currentTime < 1) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/01.css'>");
+        }
 
-    function getaCss() {
-      var whichCss = get_randomCssNum();
+        var currentTime = new Date().getHours();
+        if (1 <= currentTime&&currentTime < 2) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/02.css'>");
+        }
 
-      var cssName = new Array(4)
+        var currentTime = new Date().getHours();
+        if (2 <= currentTime&&currentTime < 3) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/03.css'>");
+        }
 
-      cssName[0] = "<link rel='stylesheet' type='text/css' href='styles/01.css'>";
-      cssName[1] = "<link rel='stylesheet' type='text/css' href='styles/02.css'>";
-      cssName[2] = "<link rel='stylesheet' type='text/css' href='styles/03.css'>";
-      cssName[3] = "<link rel='stylesheet' type='text/css' href='styles/04.css'>";
-      cssName[4] = "<link rel='stylesheet' type='text/css' href='styles/05.css'>";
-      cssName[5] = "<link rel='stylesheet' type='text/css' href='styles/06.css'>";
-      cssName[6] = "<link rel='stylesheet' type='text/css' href='styles/07.css'>";
-      cssName[7] = "<link rel='stylesheet' type='text/css' href='styles/08.css'>";
-      cssName[8] = "<link rel='stylesheet' type='text/css' href='styles/09.css'>";
-      cssName[9] = "<link rel='stylesheet' type='text/css' href='styles/10.css'>";
-      cssName[10] = "<link rel='stylesheet' type='text/css' href='styles/11.css'>";
-      cssName[11] = "<link rel='stylesheet' type='text/css' href='styles/12.css'>";
-      cssName[12] = "<link rel='stylesheet' type='text/css' href='styles/13.css'>";
-      cssName[13] = "<link rel='stylesheet' type='text/css' href='styles/14.css'>";
-      cssName[14] = "<link rel='stylesheet' type='text/css' href='styles/15.css'>";
-      cssName[15] = "<link rel='stylesheet' type='text/css' href='styles/16.css'>";
-      cssName[16] = "<link rel='stylesheet' type='text/css' href='styles/17.css'>";
-      cssName[17] = "<link rel='stylesheet' type='text/css' href='styles/18.css'>";
-      cssName[18] = "<link rel='stylesheet' type='text/css' href='styles/19.css'>";
-      cssName[19] = "<link rel='stylesheet' type='text/css' href='styles/20.css'>";
+        var currentTime = new Date().getHours();
+        if (3 <= currentTime&&currentTime < 4) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/04.css'>");
+        }
 
+        var currentTime = new Date().getHours();
+        if (4 <= currentTime&&currentTime < 5) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/05.css'>");
+        }
 
-      return cssName[whichCss]
-    }
-    document.write(getaCss());
+        var currentTime = new Date().getHours();
+        if (5 <= currentTime&&currentTime < 6) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/06.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (6 <= currentTime&&currentTime < 7) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/07.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (7 <= currentTime&&currentTime < 8) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/08.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (8 <= currentTime&&currentTime < 9) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/09.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (9 <= currentTime&&currentTime < 10) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/10.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (10 <= currentTime&&currentTime < 11) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/11.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (11 <= currentTime&&currentTime < 12) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/12.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (12 <= currentTime&&currentTime < 13) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/13.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (13 <= currentTime&&currentTime < 14) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/14.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (14 <= currentTime&&currentTime < 15) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/15.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (15 <= currentTime&&currentTime < 16) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/16.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (16 <= currentTime&&currentTime < 17) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/17.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (17 <= currentTime&&currentTime < 18) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/18.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (18 <= currentTime&&currentTime < 19) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/19.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (19 <= currentTime&&currentTime < 20) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/20.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (20 <= currentTime&&currentTime < 21) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/21.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (21 <= currentTime&&currentTime < 22) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/22.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (22 <= currentTime&&currentTime < 23) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/23.css'>");
+        }
+
+        var currentTime = new Date().getHours();
+        if (23 <= currentTime&&currentTime < 24) {
+         document.write("<link rel='stylesheet' type='text/css' href='styles/24.css'>");
+        }
+
+  }
+
+  getStylesheet();
   </script>
+
 
   <!-- <style>
     #grad1 {
@@ -75,6 +164,7 @@
       z-index: -100;
     }
   </style> -->
+
 </head>
 
 <body>
@@ -86,18 +176,19 @@
       <div class="minimenu">
         <?xml version="1.0" encoding="utf-8"?>
 
-        <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px" height="100px" viewBox="0 0 120 100" style="enable-background:new 0 0 120 100;" xml:space="preserve">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               width="120px" height="100px" viewBox="0 0 120 100" style="enable-background:new 0 0 120 100;" xml:space="preserve">
 
-          <style type="text/css">
-            .st0 {
-              ;
-            }
-          </style>
-          <rect width="120" height="10" class="st0" />
-          <rect y="90" width="120" height="10" class="st0" />
-          <rect y="45" width="120" height="10" class="st0" />
-        </svg>
-      </div>
+               <style type="text/css">
+                 .st0 {
+                   ;
+                 }
+            </style>
+            <rect width="120" height="10" class="st0"/>
+            <rect y="90" width="120" height="10" class="st0"/>
+            <rect y="45" width="120" height="10" class="st0"/>
+            </svg>
+        </div>
     </a>
     <a href="index.html" class="active">About</a>
     <a href="products.html">Products</a>
@@ -161,7 +252,7 @@
                   </div>
 
                   <div class="bodytext">
-                    nyāya enables consumers and institutions to actualize their ESG beliefs and goals in all their financial choices.
+                    nyāya enables consumers and institutions to actualize their sustainability beliefs and goals in all their financial choices.
                   </div>
 
 

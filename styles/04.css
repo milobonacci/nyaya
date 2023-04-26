@@ -12,7 +12,7 @@ body {
   font-kerning: normal;
   overflow-x: hidden;
   /* background-color: black; */
-  background-image: linear-gradient(black, white);
+  background-image: linear-gradient(white, black);
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
@@ -26,7 +26,7 @@ body {
 }
 
 body.solid {
-  background-color: lightgray;
+  background-color: darkgray;
   background-image: none;
 }
 
@@ -143,10 +143,17 @@ input {
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
+    width: 100vw;
     position: fixed;
-    background-color: whitesmoke;
+    background-color: lightgray;
     opacity: 95%;
     z-index: 3000;
+    margin: -10px;
+    margin-top: -20px;
+    margin-right: -10px;
+    padding-bottom: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
   }
 
   .topnav.responsive .icon {
@@ -203,7 +210,7 @@ a:active {
   /* transform: translateX(-1.5vw); */
   font-size: 18rem;
   text-align: center;
-  color: black;
+  color: whitesmoke;
   z-index: 0;
   font-kerning: normal;
   -webkit-transform: translate3d(-1vh, 33.33vh, 0);
@@ -370,7 +377,7 @@ div.pull {
   padding: inherit;
   font-size: 2rem;
   display: block;
-  color: dimgray;
+  color: seashell;
   position: relative;
 }
 
@@ -393,7 +400,7 @@ div.pull {
   font-size: 4rem;
   position: relative;
   margin-bottom: 0;
-  color: black;
+  color: whitesmoke;
   text-align: center;
   z-index: 2000;
   position: relative;
