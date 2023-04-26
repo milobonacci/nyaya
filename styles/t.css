@@ -137,7 +137,7 @@ input {
   .topnav.responsive {
     width: 100vw;
     position: fixed;
-    background-color: greenyellow;
+    background-color: #00003D;
     opacity: 95%;
     z-index: 3000;
     margin: -10px;
