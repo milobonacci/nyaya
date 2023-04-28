@@ -325,7 +325,7 @@
 
             $('body').css({
                 'background': 'linear-gradient(coral, indigo, coral)',
-                'color': 'coral', //body text
+                'color': 'rgb(220, 220, 220)', //body text
                 'fill': 'coral' //marque
             })
             $('div.centerLogo').css({
@@ -336,6 +336,9 @@
             })
             $('nav').css({
               'color': 'rgba(60, 0, 104, .9)' //mobile dropdown nav background
+            })
+            $('div.form').css({
+              'background': 'rgba(0, 0, 0, .6)'
             })
         }
                 if (19 <= currentTime&&currentTime < 20) {
