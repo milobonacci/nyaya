@@ -172,6 +172,13 @@ input {
   }
 }
 
+.form {
+  position: absolute;
+  display: block;
+  margin-top: 450px;
+  top: auto;
+}
+
 img {
   width: 32%;
   position: relative;
