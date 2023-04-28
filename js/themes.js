@@ -162,7 +162,7 @@
             console.log("It is between 9-10am");
 
             $('body').css({
-                'background': 'seashell',
+                'background': 'linear-gradient(seashell, rgba(255, 99, 71, .8), seashell)',
                 'color': '#011c40', //body text
                 'fill': 'tomato' //marque
             })
@@ -180,12 +180,12 @@
             console.log("It is between 10-11 am");
 
             $('body').css({
-                'background': 'linear-gradient(darkslategray, silver, darkslategray)',
-                'color': 'darkslategray', //body text
-                'fill': 'mediumaquamarine' //marque
+                'background': 'linear-gradient(hotpink, salmon, pink, orange)',
+                'color': 'deeppink', //body text
+                'fill': 'gold' //marque
             })
             $('div.centerLogo').css({
-              'color': 'mediumaquamarine' //logotype
+              'color': 'black' //logotype
             })
             $('a').css({
               'color': 'white'
@@ -235,11 +235,11 @@
 
             $('body').css({
                 'background': 'linear-gradient(slategray, darkslategray, slategray)',
-                'color': 'mediumaquamarine', //body text
-                'fill': 'whitesmoke' //marque
+                'color': 'whites', //body text
+                'fill': 'mediumaquamarine' //marque
             })
             $('div.centerLogo').css({
-              'color': 'whitesmoke' //logotype
+              'color': 'mediumaquamarine' //logotype
             })
             $('a').css({
               'color': 'whitesmoke'
@@ -288,8 +288,8 @@
             console.log("It is between 4-5 pm");
 
             $('body').css({
-                'background': 'linear-gradient(slategray, silver, slategray)',
-                'color': 'gray', //body text
+                'background': 'linear-gradient(#3A424A, slategray, silver, slategray, #3A424A)',
+                'color': 'black', //body text
                 'fill': 'mediumaquamarine' //marque
             })
             $('div.centerLogo').css({
