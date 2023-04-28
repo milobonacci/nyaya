@@ -288,9 +288,9 @@
             console.log("It is between 4-5 pm");
 
             $('body').css({
-                'background': 'linear-gradient(midnightblue, deeppink, midnightblue)',
-                'color': 'black', //body text
-                'fill': 'orange' //marque
+                'background': 'linear-gradient(slategray, silver, slategray)',
+                'color': 'gray', //body text
+                'fill': 'mediumaquamarine' //marque
             })
             $('div.centerLogo').css({
               'color': 'mediumaquamarine' //logotype
