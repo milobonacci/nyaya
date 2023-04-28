@@ -324,7 +324,7 @@
             console.log("It is between 6-7 pm");
 
             $('body').css({
-                'background': 'linear-gradient(coral, indigo, coral)',
+                'background': 'linear-gradient(indigo, coral, indigo)',
                 'color': 'rgb(220, 220, 220)', //body text
                 'fill': 'coral' //marque
             })
@@ -338,7 +338,7 @@
               'color': 'rgba(60, 0, 104, .9)' //mobile dropdown nav background
             })
             $('div.form').css({
-              'background': 'rgba(0, 0, 0, .6)'
+              'background': 'rgba(0, 0, 0, .5)'
             })
         }
                 if (19 <= currentTime&&currentTime < 20) {
@@ -357,6 +357,9 @@
             })
             $('nav').css({
               'color': 'rgba(20, 20, 90, .9)' //mobile dropdown nav background
+            })
+            $('div.form').css({
+              'background': 'rgba(0, 0, 0, .5)'
             })
         }
                 if (20 <= currentTime&&currentTime < 21) {

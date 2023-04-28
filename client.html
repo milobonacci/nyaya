@@ -166,17 +166,22 @@
       vertical-align: top;
     }
 
-    #grad1 {
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      margin: -10px;
-      padding-left: 18px;
-      height: 200vh;
-      z-index: -100;
-      overflow: hidden;
-    }
+      .responsive {
+        background-color: currentcolor;
+      }
+
+      #grad1 {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: -10px;
+        padding-left: 18px;
+        height: 200vh;
+        z-index: -100;
+        overflow: hidden;
+      }
+    </style>
   </style>
   <link rel='stylesheet' type='text/css' href='styles/main.css'>
 
@@ -186,8 +191,7 @@
 
   <nav>
     <div class="topnav" id="myTopnav">
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-
+      <a href="javascript:void(0);" class="icon" class="navLink" onclick="myFunction()">
         <div class="minimenu">
           <?xml version="1.0" encoding="utf-8"?>
 
@@ -205,14 +209,11 @@
           </svg>
         </div>
       </a>
-
-
       <a href="index.html">About</a>
       <a href="products.html">Products</a>
       <a href="careers.html">Careers</a>
-      <a href="contact.html">Contact</a>
-      <a href="client.html" target="_top" class="active">Login</a>
-
+      <a href="contact.html" class="active">Contact</a>
+      <a href="client.html" target="_top">Login</a>
     </div>
   </nav>
 
