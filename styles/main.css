@@ -11,19 +11,17 @@
 body {
   font-kerning: normal;
   overflow-x: hidden;
-  background-color: midnightblue;
-  /* background-image: linear-gradient(coral, indigo); */
+  /* background-color: orange; */
+  /* background-image: linear-gradient(lightgray, darkgray); */
   line-height: 1.1;
   font-family: 'nyayasans-open';
   font-weight: 100;
-  color: whitesmoke;
   font-weight: normal;
   font-style: normal;
   overscroll-behavior: none;
   -webkit-hyphens: manual;
   -ms-hyphens: manual;
   hyphens: manual;
-
 }
 
 @-webkit-keyframes animatezoom {
@@ -49,7 +47,7 @@ body {
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: inherit;
-  opacity: .85;
+  opacity: .5;
   /* Firefox */
 }
 
@@ -80,14 +78,17 @@ input {
 
 .topnav {
   overflow: hidden;
+  /* display: none; */
   position: fixed;
   top: 20px;
   width: 93vw;
   z-index: 3000;
   margin-top: 0px;
   padding: .5rem 1rem;
-  color: whitesmoke;
+  background-color: none;
+  height: auto;
 }
+
 
 .topnav a {
   text-align: center;
@@ -98,6 +99,7 @@ input {
   text-decoration: none;
   font-size: 2rem;
   height: 6vh;
+
 }
 
 .topnav a:hover {}
@@ -133,17 +135,23 @@ input {
   }
 }
 
+.navLink {
+
+}
+
+
 @media screen and (max-width: 600px) {
   .topnav.responsive {
     width: 100vw;
     position: fixed;
-    background-color: #00003D;
     opacity: 95%;
     z-index: 3000;
     margin: -10px;
     margin-top: -20px;
     margin-right: -10px;
     padding-bottom: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
   }
 
   .topnav.responsive .icon {
@@ -172,12 +180,10 @@ img {
 
 a:link {
   text-decoration: none;
-  color: deeppink;
 }
 
 a:visited {
   text-decoration: none;
-  color: inherit;
 }
 
 a:hover {
@@ -187,7 +193,20 @@ a:hover {
 }
 
 a:active {
-  color: whitesmoke;
+}
+
+.centerLogo {
+  height: 50vh;
+  top: -4rem;
+  position: -webkit-sticky;
+  position: sticky;
+  vertical-align: bottom;
+  /* transform: translateX(-1.5vw); */
+  font-size: 18rem;
+  text-align: center;
+  z-index: 0;
+  font-kerning: normal;
+  -webkit-transform: translate3d(-1vh, 33.33vh, 0);
 }
 
 .marqueContainer {
@@ -198,26 +217,41 @@ a:active {
   height: 91vh;
 }
 
-section {
-  height: 1000px;
+.maincontact {
+  height: 50vh;
+  top: -4rem;
+  position: -webkit-sticky;
+  position: sticky;
+  vertical-align: bottom;
+  transform: translateY(-15px);
+  transform: translateY(33.333vh);
+  justify-content: center;
+  font-size: 20rem;
+  left: 50vw;
+  font-size: 8vw;
+  text-align: center;
+  z-index: 0;
+  font-kerning: normal;
+  -webkit-transform: translate3d(0, 40vh, 0);
+  vertical-align: middle;
 }
 
 svg {
   display: block;
   max-height: 90vh;
-  max-width: 90%;
+  */ max-width: 90%;
   max-height: 90%;
   transform: translateY(-1%);
   scroll-behavior: smooth;
 }
 
-.cls-1 {
-  fill: deeppink;
+/* .cls-1 {
+  fill: gold;
 }
 
 .st0 {
-  fill: deeppink;
-}
+  fill: gold;
+} */
 
 .content {
   width: 82%;
@@ -259,7 +293,6 @@ svg {
   }
 
   div.pull {
-    font-size: 350%;
   }
 }
 
@@ -298,11 +331,6 @@ svg {
     height: 80vh;
     margin-top: 10vh;
   }
-
-  section {
-    transform: scale(.75);
-    margin-top: -30px;
-  }
 }
 
 @media (max-height: 500px) {
@@ -313,11 +341,6 @@ svg {
   div.marqueContainer {
     height: 80vh;
     margin-top: 10vh;
-  }
-
-  section {
-    transform: scale(.75);
-    margin-top: -30px;
   }
 }
 
@@ -336,26 +359,6 @@ div.pull {
   overflow: scroll;
 }
 
-.maincontact {
-  height: 50vh;
-  top: -4rem;
-  position: -webkit-sticky;
-  position: sticky;
-  vertical-align: bottom;
-  transform: translateY(-15px);
-  transform: translateY(33.333vh);
-  justify-content: center;
-  font-size: 20rem;
-  left: 50vw;
-  font-size: 8vw;
-
-  text-align: center;
-  z-index: 0;
-  font-kerning: normal;
-  -webkit-transform: translate3d(0, 40vh, 0);
-  vertical-align: middle;
-}
-
 .pull {
   left: 50;
   margin-top: 50px;
@@ -371,7 +374,6 @@ div.pull {
 
 .pull a:hover {
   text-decoration: none;
-  color: white;
 }
 
 .block {
@@ -383,6 +385,17 @@ div.pull {
   z-index: 2200;
 }
 
+.contact {
+  padding-top: 75vh;
+  font-size: 4rem;
+  position: relative;
+  margin-bottom: 0;
+  text-align: center;
+  z-index: 2000;
+  position: relative;
+  padding-bottom: 6vh;
+}
+
 .centered {
   font-size: 8rem;
   position: relative;
@@ -390,4 +403,32 @@ div.pull {
   margin-top: 66.666vh;
   line-height: .95em;
   -webkit-transform: translate3d(0, 0, 0);
+}
+
+.heading {
+  text-align: center;
+  position: fixed;
+  font-size: 30vw;
+  z-index: 10;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  font-size: 3em;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  line-height: .95em;
+}
+
+.bodytext {
+  font-size: 4rem;
+  overflow: scroll;
+  padding-top: 90vh;
+  padding-bottom: 20vh;
+  z-index: 100;
+  position: relative;
 }
