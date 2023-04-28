@@ -24,6 +24,10 @@ body {
   hyphens: manual;
 }
 
+nav {
+  display: block;
+}
+
 @-webkit-keyframes animatezoom {
   from {
     -webkit-transform: scale(0)
@@ -293,6 +297,8 @@ svg {
   }
 
   div.pull {
+    font-size: 350%;
+
   }
 }
 

@@ -17,7 +17,6 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="jquery.cookie.js"></script>
   <!-- <link rel="stylesheet" type="text/css" href="styles/01.css"> -->
-  <link rel='stylesheet' type='text/css' href='styles/main.css'>
 
   <style>
     @media all {
@@ -49,9 +48,9 @@
       });
     });
   </script>
+  <link rel='stylesheet' type='text/css' href='styles/main.css'>
 
   <style>
-
     body {
       font-family: 'nyayasans-open';
       -moz-osx-font-smoothing: grayscale;
@@ -172,67 +171,77 @@
       vertical-align: top;
     }
 
-  #grad1 {
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        margin: -10px;
-        padding-left: 18px;
-        height: 200vh;
-        z-index: -100;
-        overflow: hidden;
-      }
+    #grad1 {
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin: -10px;
+      padding-left: 18px;
+      height: 200vh;
+      z-index: -100;
+      overflow: hidden;
+    }
   </style>
+
 </head>
 
 <body id=grad1>
 
-  <div class="topnav" id="myTopnav">
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 
-      <div class="minimenu">
-        <?xml version="1.0" encoding="utf-8"?>
+        <div class="minimenu">
+          <?xml version="1.0" encoding="utf-8"?>
 
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px" height="100px" viewBox="0 0 120 100" style="enable-background:new 0 0 120 100;" xml:space="preserve">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px" height="100px" viewBox="0 0 120 100" style="enable-background:new 0 0 120 100;"
+            xml:space="preserve">
 
-          <style type="text/css">
-            .st0 {
-              ;
-            }
-          </style>
-          <rect width="120" height="10" class="st0" />
-          <rect y="90" width="120" height="10" class="st0" />
-          <rect y="45" width="120" height="10" class="st0" />
-        </svg>
-      </div>
-    </a>
+            <style type="text/css">
+              .st0 {
+                ;
+              }
+            </style>
+            <rect width="120" height="10" class="st0" />
+            <rect y="90" width="120" height="10" class="st0" />
+            <rect y="45" width="120" height="10" class="st0" />
+          </svg>
+        </div>
+      </a>
 
 
-    <a href="index.html">About</a>
-    <a href="products.html">Products</a>
-    <a href="careers.html">Careers</a>
-    <a href="contact.html">Contact</a>
-    <a href="client.html" target="_top" class="active">Login</a>
+      <a href="index.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+      <a href="client.html" target="_top" class="active">Login</a>
 
-  </div>
+    </div>
+  </nav>
 
   <!--Correct username: invitado / pass: hgm2015-->
-  <div class="form">
-    <div class="topRule">
-      <h2>Login To Your Account</h2>
+  <div class="content">
+    <div class="container">
+
+      <div class="form">
+        <div class="topRule">
+          <h2>Login To Your Account</h2>
+        </div>
+        <div class="message">
+          <p class="valid">Valid. Please wait a moment.</p>
+          <p class="error">The Username and Password do not match.</p>
+        </div>
+        <div class="topRule">
+          <form class="loginbox" autocomplete="off">
+            <input placeholder="Username" type="text" id="username"></input>
+            <input placeholder="Password" type="password" id="password"></input>
+            <button id="submit">Login</button>
+        </div>
+        </form>
+      </div>
+
     </div>
-    <div class="message">
-      <p class="valid">Valid. Please wait a moment.</p>
-      <p class="error">The Username and Password do not match.</p>
-    </div>
-    <div class="topRule">
-      <form class="loginbox" autocomplete="off">
-        <input placeholder="Username" type="text" id="username"></input>
-        <input placeholder="Password" type="password" id="password"></input>
-        <button id="submit">Login</button>
-    </div>
-    </form>
   </div>
 
   <script>
