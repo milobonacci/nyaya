@@ -93,7 +93,6 @@ input {
   height: auto;
 }
 
-
 .topnav a {
   text-align: center;
   vertical-align: middle;
@@ -103,7 +102,6 @@ input {
   text-decoration: none;
   font-size: 2rem;
   height: 6vh;
-
 }
 
 .topnav a:hover {}
@@ -139,10 +137,7 @@ input {
   }
 }
 
-.navLink {
-
-}
-
+.navLink {}
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
@@ -178,7 +173,6 @@ input {
   margin-top: 450px;
   top: auto;
 } */
-
 img {
   width: 32%;
   position: relative;
@@ -203,8 +197,7 @@ a:hover {
   text-decoration-position: auto;
 }
 
-a:active {
-}
+a:active {}
 
 .centerLogo {
   height: 50vh;
@@ -263,7 +256,6 @@ svg {
 .st0 {
   fill: gold;
 } */
-
 .content {
   width: 82%;
   padding: 6%;
@@ -305,7 +297,6 @@ svg {
 
   div.pull {
     font-size: 350%;
-
   }
 }
 
@@ -459,6 +450,7 @@ div.pull {
   padding: 2rem;
   color: black;
   background-color: white;
+
   h2 {
     margin: 0 0 20px;
     line-height: 1;
