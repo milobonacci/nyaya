@@ -447,10 +447,10 @@ div.pull {
 }
 
 .form {
-  position: absolute;
+  position: fixed;
   margin-top: auto;
   display: block;
-  top: 150px;
+  top: 12vh;
   left: 7vw;
   margin: auto;
   z-index: 1;
